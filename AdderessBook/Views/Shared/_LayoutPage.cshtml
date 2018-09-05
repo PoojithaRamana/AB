@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Address Book</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="~/Scripts/AddressBook.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1 class="header">Address Book</h1>
+    </div>
+
+    <div class="nav">
+        <ul>
+            <li ><a id="home" href="@Url.Action("Index")">HOME</a></li>
+            <li ><a id="add-contact" >+ADD</a></li>
+        </ul>
+        <img class="headericon" src="~/Content/blog-icon.png" alt="" />
+    </div>
+    <div>
+        @Html.Action("DisplayContacts")
+    </div>
+    <div>
+        @Html.Action("ContactForm")
+    </div>
+    <div>
+        @Html.Action("ViewDetailsOfContact")
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+
+</body>
+</html>

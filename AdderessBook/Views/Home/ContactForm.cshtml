@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Contact Form";
+}
+
+<div class="right-body">
+       
+    <form id="contact-form" action="api/AddressBook" method="post">
+        <label class="require" id="require-field"></label>
+        <div>
+            <label class="form-label">Name</label><span class="name require">*</span>
+            <input type="text" id="name-value" placeholder=" " />
+        </div>
+        <div>
+            <label class="form-label">Email</label><span class="email require">*</span>
+            <input type="text" id="email-value" placeholder=" " />
+        </div>
+        <div class="left-box">
+            <label class="form-label">Mobile</label><span class="number require"> *</span>
+            <input type="text" id="number-value" placeholder=" " />
+        </div>
+        <div class="right-box">
+            <label class="form-label">Landline</label>
+            <input type="text" id="land-num" placeholder=" " />
+        </div>
+        <div>
+            <label class="form-label">Website</label><span class="web require"> *</span>
+            <input type="text" id="web" placeholder=" " />
+        </div>
+        <div>
+            <label class="form-label">Address</label>
+            <textarea type="text" id="addrr" placeholder=" " ></textarea>
+        </div>
+            <input type="button" class="edit-button" value="Update" />
+       
+            <input type="button" class="add" value="ADD" />
+
+        <a href='@Url.Action("Index", "Home")'>
+            <input type="button" class="cancel" value="Cancel" />
+        </a>
+    </form>
+</div>
+}

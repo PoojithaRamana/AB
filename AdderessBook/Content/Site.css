@@ -1,0 +1,234 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: #1E90BB;
+    color: #ffffff;
+    padding: 25px;
+    font-size: 60px;
+    font-family: Century Gothic;
+    font-weight: 500;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #333;
+    font-family: calibri;
+}
+
+div.nav ul {
+    float: left;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 2px 25px;
+        text-decoration: none;
+        font-weight: 1000;
+        font-size: 19.5px;
+        border-left: 5px solid #333;
+        cursor: pointer;
+    }
+
+.active {
+    border-left: 5px solid #eee;
+    background-color: lightsalmon;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+li a:hover {
+    border-left: 5px solid #eee;
+    background-color: lightsalmon;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+.headericon {
+    float: right;
+    display: inline-block;
+    margin-top: 2px;
+    position: relative;
+    margin-right: 30px;
+}
+
+ul, ol {
+   margin-top: 0; 
+    margin-bottom: 0px; 
+}
+
+.main-body {
+    margin: 40px;
+}
+
+.left-body {
+    font-family: calibri;
+    font-size: 20px;
+    min-width: 500px;
+    min-height: 700px;
+    margin: auto;
+    padding-left: 150px;   
+}
+
+#contacts{
+    width:400px;
+}
+.right-body {
+    position :absolute;
+    left: 700px;
+    min-width: 700px;
+    min-height: 500px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    font-family: calibri;
+    margin: auto;
+    top: 200px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.6);
+}
+
+.name {
+    font-weight: normal;
+    margin: 5px;
+}
+
+.form-label {
+    float: left;
+    clear: left;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: calibri;
+    line-height: 25px;
+}
+
+input[type="text"] {
+    float: left;
+    clear: left;
+    height: 40px;
+    width: 550px;
+    border: 1px solid #444;
+    margin-bottom: 10px;
+}
+
+.left-box {
+    float: left;
+}
+
+div.left-body h3 {
+    margin-bottom: 20px;
+}
+
+.right-box {
+    float: right;
+    margin-right:120px;
+}
+
+#number-value {
+    width: 260px;
+    margin-right: 30px;
+}
+
+#land-num {
+    width: 260px;
+}
+
+#addrr {
+    float: left;
+    clear: left;
+    height: 120px;
+    width: 550px;
+}
+
+input[type="button"] {
+    float: right;
+    height: 40px;
+    clear: left;
+    width: 120px;
+    background-color: #259025;
+    margin-bottom: 10px;
+    color: white;
+    margin-right: 30px;
+    margin-top: 10px;
+    cursor:pointer;
+}
+
+div.contacts h1 {
+    font-size: 35px;
+    font-weight: lighter;
+    text-indent: 10px;
+}
+
+div.contacts p {
+    font-size: 18px;
+    text-indent: 12px;
+    margin:0px;
+}
+
+.background {
+    background-color: #cee7f2;
+}
+
+#img-styles {
+    height: 20px;
+    width: 20px;
+}
+
+.contact-details {
+    position: absolute;
+    top: 200px;
+    left: 750px;
+    width: 300px;
+    margin: auto;
+    font-family: calibri;
+}
+
+.edit-icon {
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.delete-icon {
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.editor {
+    position: absolute;
+    left: 1000px;
+    width: 900px;
+    margin: auto;
+    font-family: calibri;
+    top: 210px;
+}
+
+.border-styles {
+    border: 1px solid #aaa;
+    cursor: pointer;
+}
+
+.require {
+    color: red;
+    padding-top: 15px;
+    float: left;
+    font-size: 15px;
+    font-family: arial;
+    padding: 5px;
+}
+
